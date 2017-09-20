@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<html dir="ltr">
+
+<!-- #BeginTemplate "yacht_template.dwt" -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<!-- #BeginEditable "doctitle" -->
+<title>Contact</title>
+<link href="css/Contact.css" rel="stylesheet" type="text/css">
+<!-- #EndEditable -->
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link href="yacht_template.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="images/bar-icon.png" />
+<!-- #BeginEditable "doctitle" -->
+<!-- #EndEditable -->
+</head>
+
+<body >
+<div id="allPage">
+	<div id="banner">
+		<div id="bannerheader" class="banner-head">
+			<p>Have a Break
+			<br>
+			Have a Yacht</p>
+		</div>
+	</div>
+
+
+	<nav id="navigation">
+	<ul>
+		<li><a href="Home.html">HOME</a></li>
+		<li><a href="InventoryList.html">INVENTORY</a></li>
+		<li><a href="Contact.html">CONTACT</a></li>
+		<li><a href="Sitemap.html">SITE MAP</a></li>
+	</ul>
+	</nav>
+	
+	<div id="content">
+<!-- #BeginEditable "body" -->
+		<div id="map">
+			<div class="contact-title">
+				FIND US ON THE MAP
+			</div>
+			
+			<div id="google-map" class="map-zone">
+			</div>
+				<script>
+			      function initMap() {
+			        var toronto = {lat: 43.6, lng: -79.4};
+			        var map = new google.maps.Map(document.getElementById('google-map'), {
+			          zoom: 4,
+			          center: toronto 
+			        });
+			        var marker = new google.maps.Marker({
+			          position: toronto,
+			          map: map
+			        });
+			      }				
+      			</script>				
+				<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-ZJIB1IxtKop4gTl5DWziyC4hOSoOaxk&callback=initMap"></script>
+		</div>
+		
+		<div id="contact-info">
+			<div class="contact-title">
+				CONTACT INFORMATION
+			</div>
+			
+			<div id="contact-address">
+				<i class="fa fa-map-marker"></i><b>Address:</b>
+				<div id="contact-address-detail">
+					Company Name
+					1234 Street Name 
+					City Name, ON 12345 
+					Canada
+				</div>
+			</div>
+			
+			<div id="contact-telecom-method">
+				<ul>
+					<li>
+						<i class="fa fa-desktop"></i>
+						<span><b>Web:</b> www.company.ca</span>
+					</li>
+					<li>
+						<i class="fa fa-phone"></i>
+						<span><b>Phone:</b> 800-123-4567</span>
+					</li>
+					<li>
+						<i class="fa fa-envelope-o"></i>
+						<span><b>Email:</b> sales@company.com</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="business-hours">
+			<div class="contact-title">
+				BUSINESS HOURS
+			</div>
+			
+			<div id="business-hours-salestable">				
+				<table class="business-hours-table">
+					<tr>
+						<td colspan="2"><b>Sales Department</b></td>
+					</tr>
+					<tr>
+						<td>Mon:</td>
+						<td>8:00am - 5:00pm</td>
+					</tr>
+					<tr>
+						<td>Tue:</td>
+						<td>8:00am - 9:00pm</td>
+					</tr>
+					<tr>
+						<td>Wed:</td>
+						<td>8:00am - 5:00pm</td>
+					</tr>
+					<tr>
+						<td>Thu:</td>
+						<td>8:00am - 9:00pm</td>
+					</tr>
+					<tr>
+						<td>Fri:</td>
+						<td>8:00am - 6:00pm</td>
+					</tr>
+					<tr>
+						<td>Sat:</td>
+						<td>8:00am - 2:00pm</td>
+					</tr>
+					<tr>
+						<td>Sun:</td>
+						<td>Closed</td>
+					</tr>
+				</table>			
+			</div>
+			
+			<div id="business-hours-servicetable">
+				<table class="business-hours-table">
+					<tr>
+						<td colspan="2"><b>Service Department</b></td>
+					</tr>
+					<tr>
+						<td>Mon:</td>
+						<td>8:00am - 4:00pm</td>
+					</tr>
+					<tr>
+						<td>Tue:</td>
+						<td>8:00am - 7:00pm</td>
+					</tr>
+					<tr>
+						<td>Wed:</td>
+						<td>8:00am - 10:00pm</td>
+					</tr>
+					<tr>
+						<td>Thu:</td>
+						<td>8:00am - 10:00pm</td>
+					</tr>
+					<tr>
+						<td>Fri:</td>
+						<td>8:00am - 8:00pm</td>
+					</tr>
+					<tr>
+						<td>Sat:</td>
+						<td>8:00am - 4:00pm</td>
+					</tr>
+					<tr>
+						<td>Sun:</td>
+						<td>Closed</td>
+					</tr>
+				</table>				
+			</div>
+		</div>
+		
+		<div id="contact-form">
+			<div class="contact-title">
+				CONTACT FORM
+			</div>
+			
+			<div id="contact-form-content">
+				<form method="post" action="mailto:qziqing11@ggmail.com">
+					<input name="txAddress" id="txAddress" size="60" type="text" required="required" placeholder="Name(Required)" class="contact-form-align">
+					<br><br>
+					<input name="txEmail0" id="txEmail0" size="60" type="email" required="required" placeholder="Email(Required)" class="contact-form-align">
+					<br><br>
+					<input name="txPhone" id="txPhone" size="60" type="text" required="required" placeholder="Phone(Required)" class="contact-form-align">
+					<br><br>
+					<textarea name="TextArea" id="TextArea" cols="61" rows="8" placeholder="Your messeage(such as module, year make, kms, price range...)" class="contact-form-align"></textarea>
+					<br><br>
+					<input name="SubmitSubxcribe0" class="SubmitSubxcribe" type="submit" value="Send Message" />
+				</form>
+			</div>
+		</div>
+<!-- #EndEditable -->
+	</div>
+
+	<div id="footer">		
+		<div id="footer-subscribe">
+			<h2 class="footer-text-head">Newsletter</h2>
+			<div class="footer-wrap-up-content">
+				<p class="footer-text">By subscribing to our company newsletter you will always be up-to-date on our latest promotions, deals and yacht inventory!</p>
+				<br>
+				<form method="post" action="mailto:qziqing11@ggmail.com">
+					<input name="txEmail" id="txEmail" size="20" type="email" required="required" placeholder="email address">
+					<input name="SubmitSubxcribe" class="SubmitSubxcribe" type="submit" value="Subscribe" />
+				</form>
+			</div>
+		</div>
+
+		<div id="footer-news">
+			<h2 class="footer-text-head">Latest News</h2>
+			<div class="footer-wrap-up-content">
+				<ul>
+					<li>
+						<i class="fa fa-twitter-square"></i>
+						<a href="http://www.superyachtnews.com/owner/john-staluppi-on-brokerage" class="footer-text">John Staluppi on brokerage</a>
+					</li>
+					<li>
+						<i class="fa fa-facebook-official"></i>
+						<a href="http://www.superyachtnews.com/fleet/50m-my-home-hits-the-water" class="footer-text">50m M/Y Home hits the water</a>
+					</li>
+					<li>
+						<i class="fa fa-linkedin-square"></i>
+						<a href="http://www.superyachtnews.com/fleet/overmarine-launches-12th-mangusta-165" class="footer-text">Overmarine launches 12th Mangusta 165</a>
+					</li>
+					<li>
+						<i class="fa fa-paypal"></i>
+						<a href="http://www.superyachtnews.com/business/ferretti-group-reports-strong-growth-figures" class="footer-text">Ferretti Group reports strong growth figures</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		
+		<div id="footer-contact">
+			<h2 class="footer-text-head">Contact Us</h2>
+			<div class="footer-wrap-up-content">				
+				<ul>
+					<li>
+						<i class="fa fa-map-marker"></i>
+						<span class="footer-text">Address: 1234 Street Name, City Name</span>
+					</li>
+					<li>
+						<i class="fa fa-phone"></i>
+						<span class="footer-text">Phone: 800-123-4567</span>
+					</li>
+					<li>
+						<i class="fa fa-envelope-o"></i>
+						<span class="footer-text">Email: sales@company.com</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="footer-copyright">&copy;&nbsp;Copyright Ziqing Qiu COMP 213 Project Assignment</div>
+	</div>
+
+</div>
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
