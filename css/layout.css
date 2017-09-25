@@ -1,4 +1,4 @@
-/*
+﻿/*
 =====================================================================
 *   Ceevee v1.0 Layout Stylesheet
 *   url: styleshout.com
@@ -299,7 +299,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 42px;
+  	height: 22px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -317,29 +317,42 @@ ul#nav li.current a { color: #F06000; }
    top: 0;
 
    margin: 0;
-   padding-right: 24px;
+   padding-right: 22px;
   	background: #313131;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
+  	height: 22px;
+   line-height: 22px;
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
+.c {
+  	width: 75%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
+
+.csharp {
+  	width: 80%;
+  	-moz-animation: photoshop 2s ease;
+  	-webkit-animation: photoshop 2s ease;
+}
+.cplusplus {
+  	width: 85%;
+  	-moz-animation: illustrator 2s ease;
+  	-webkit-animation: illustrator 2s ease;
+}
+.java {
+  	width: 70%;
+  	-moz-animation: wordpress 2s ease;
+  	-webkit-animation: wordpress 2s ease;
+}
+.plsql {
+  	width: 80%;
+  	-moz-animation: wordpress 2s ease;
+  	-webkit-animation: wordpress 2s ease;
+}
+
+
 .css {
   	width: 90%;
   	-moz-animation: css 2s ease;
