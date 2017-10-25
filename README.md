@@ -15,5 +15,5 @@ Current contents are:
 * Contact
 * Blog (*current under construction*)
 
-Snapshots:
+![snapshots](snapshot.png)
 ​
