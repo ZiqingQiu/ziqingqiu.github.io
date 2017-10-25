@@ -2,7 +2,7 @@
 
 ## This repo manages all the code to the website
 
-[click here to visit](ziqingqiu.github.io)
+[click here to visit the page](ziqingqiu.github.io)
 
 
 
