@@ -13,7 +13,7 @@
 * Projects
 * Testimonials
 * Contact
-* Blog (*current under construction*)
+* Blogs (*current under construction*)
 
 ![snapshots](snapshot.png)
 ​
