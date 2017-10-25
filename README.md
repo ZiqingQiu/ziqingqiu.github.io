@@ -17,3 +17,5 @@
 
 ![snapshots](snapshot.png)
 ​
+
+[![HitCount](http://hits.dwyl.io/ziqingqiu/https://github.com/ZiqingQiu/ziqingqiu.github.io.git.svg)](http://hits.dwyl.io/ziqingqiu/https://github.com/ZiqingQiu/ziqingqiu.github.io.git)
